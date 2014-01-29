@@ -12,7 +12,7 @@
         <div>
            <h1>Hur många versaler?</h1>
             <%-- Textfält --%>
-            <asp:TextBox ID="field" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="field" runat="server" AssociatedControlID="emptyField"></asp:TextBox>
         </div>
         <div>
             <%-- Valedering - Funkar inte! Kan inte lägga AssociatedControlID i ett TextBox
